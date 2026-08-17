@@ -1,0 +1,21 @@
+GALERİ FOTOĞRAFLARI
+===================
+
+Gerçek etkinlik fotoğraflarını BU KLASÖRE atın.
+
+Örnek:
+  public/gallery/dogumgunu.jpg
+  public/gallery/nisan.jpg
+  public/gallery/bahce-dugunu.jpg
+
+Sonra src/components/Gallery.jsx dosyasını açın ve SHOTS listesinde
+ilgili satırdaki  frame: 118  kısmını  src: "/gallery/dogumgunu.jpg"
+ile değiştirin. Dosya adının başındaki  /gallery/  kısmı kalmalı.
+
+Önce/sonra:
+  { frame: 118,                      title: "...", meta: "...", span: "..." }
+  { src: "/gallery/dogumgunu.jpg",   title: "...", meta: "...", span: "..." }
+
+span değerine dokunmayın — kutunun ızgaradaki boyutunu o belirliyor.
+
+Önerilen fotoğraf boyutu: 2000px genişlik civarı, JPG veya WEBP.
