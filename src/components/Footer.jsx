@@ -28,6 +28,9 @@ export default function Footer() {
               organizasyonlar. Konseptten uygulamaya tek elden.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
+              <a href={SITE.whatsappHref} target="_blank" rel="noreferrer" className="btn-gold !bg-[#25D366] !border-[#25D366] hover:!bg-[#20bd5a] !text-white !px-6 !py-2.5 !text-[0.68rem]">
+                WhatsApp
+              </a>
               <a href={SITE.instagram} target="_blank" rel="noreferrer" className="btn-gold !px-6 !py-2.5 !text-[0.68rem]">
                 Instagram
               </a>

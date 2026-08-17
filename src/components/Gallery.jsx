@@ -11,12 +11,19 @@ import { frameSrc } from "../lib/frames";
  * Karışık kullanabilirsin — bazı kutular fotoğraf, bazıları filmden kare kalabilir.
  */
 const SHOTS = [
-  { frame: 141, title: "Gala Gecesi", meta: "Sahne kurulumu · Ankara", span: "lg:col-span-7 lg:row-span-2" },
-  { frame: 118, title: "Doğum Günü Konsepti", meta: "Balon kemeri & neon", span: "lg:col-span-5" },
-  { frame: 104, title: "Balo Salonu", meta: "Nişan · 180 kişi", span: "lg:col-span-5" },
-  { frame: 96, title: "Işık Tasarımı", meta: "Gobo & spot kurulumu", span: "lg:col-span-4" },
-  { frame: 52, title: "Sahne Provası", meta: "Teknik hazırlık", span: "lg:col-span-4" },
-  { frame: 130, title: "Bahçe Düğünü", meta: "Açık hava · yaz sezonu", span: "lg:col-span-4" },
+  { src: "/gallery/WhatsApp Image 2026-08-17 at 17.31.37.jpeg", title: "Gala Gecesi", meta: "Sahne kurulumu · Ankara", span: "lg:col-span-7 lg:row-span-2" },
+  { src: "/gallery/WhatsApp Image 2026-08-17 at 17.31.38 (1).jpeg", title: "Doğum Günü Konsepti", meta: "Balon kemeri & neon", span: "lg:col-span-5" },
+  { src: "/gallery/WhatsApp Image 2026-08-17 at 17.31.38 (2).jpeg", title: "Balo Salonu", meta: "Nişan · 180 kişi", span: "lg:col-span-5" },
+  { src: "/gallery/WhatsApp Image 2026-08-17 at 17.31.38.jpeg", title: "Işık Tasarımı", meta: "Gobo & spot kurulumu", span: "lg:col-span-4" },
+  { src: "/gallery/WhatsApp Image 2026-08-17 at 17.31.39 (1).jpeg", title: "Sahne Provası", meta: "Teknik hazırlık", span: "lg:col-span-4" },
+  { src: "/gallery/WhatsApp Image 2026-08-17 at 17.31.39 (2).jpeg", title: "Bahçe Düğünü", meta: "Açık hava · yaz sezonu", span: "lg:col-span-4" },
+  { src: "/gallery/WhatsApp Image 2026-08-17 at 17.31.39.jpeg", title: "Etkinlik Anı", meta: "Özel anlar", span: "lg:col-span-5 lg:row-span-2" },
+  { src: "/gallery/WhatsApp Image 2026-08-17 at 17.31.40 (1).jpeg", title: "Harika Gösteri", meta: "Unutulmaz sahne", span: "lg:col-span-7" },
+  { src: "/gallery/WhatsApp Image 2026-08-17 at 17.31.40 (2).jpeg", title: "Muhteşem Gün", meta: "Büyük kutlama", span: "lg:col-span-7" },
+  { src: "/gallery/WhatsApp Image 2026-08-17 at 17.31.40 (3).jpeg", title: "Çocukların Neşesi", meta: "Eğlenceli oyunlar", span: "lg:col-span-6" },
+  { src: "/gallery/WhatsApp Image 2026-08-17 at 17.31.40 (4).jpeg", title: "Mutluluk", meta: "Gülümseyen yüzler", span: "lg:col-span-6" },
+  { src: "/gallery/WhatsApp Image 2026-08-17 at 17.31.40 (5).jpeg", title: "Sahne Işıkları", meta: "Görsel şölen", span: "lg:col-span-8" },
+  { src: "/gallery/WhatsApp Image 2026-08-17 at 17.31.40.jpeg", title: "Büyük Kapanış", meta: "Gecenin sonu", span: "lg:col-span-4" },
 ];
 
 /** A tile is either a real photo (`src`) or a still from the film (`frame`). */
