@@ -38,12 +38,13 @@ export default function Footer() {
             <p className="text-[0.63rem] uppercase tracking-[0.16em] text-cream/35">
               Menü
             </p>
-            <ul className="mt-5 space-y-3">
+            {/* Block links with padding — 17px text rows were too small to tap. */}
+            <ul className="mt-3 space-y-0.5">
               {NAV_LINKS.map((l) => (
                 <li key={l.href}>
                   <a
                     href={l.href}
-                    className="text-[0.86rem] font-light text-cream/60 transition-colors hover:text-gold-200"
+                    className="-mx-2 block rounded-lg px-2 py-3 text-[0.86rem] font-light text-cream/60 transition-colors hover:text-gold-200"
                   >
                     {l.label}
                   </a>
@@ -56,12 +57,12 @@ export default function Footer() {
             <p className="text-[0.63rem] uppercase tracking-[0.16em] text-cream/35">
               Hizmetler
             </p>
-            <ul className="mt-5 space-y-3">
+            <ul className="mt-3 space-y-0.5">
               {SERVICES.map((s) => (
                 <li key={s}>
                   <a
                     href="#hizmetler"
-                    className="text-[0.86rem] font-light text-cream/60 transition-colors hover:text-gold-200"
+                    className="-mx-2 block rounded-lg px-2 py-3 text-[0.86rem] font-light text-cream/60 transition-colors hover:text-gold-200"
                   >
                     {s}
                   </a>

@@ -35,7 +35,7 @@ export default function Nav() {
         }`}
       >
         <div className="shell flex h-16 items-center justify-between gap-6 md:h-20">
-          <a href="#giris" className="group flex items-center gap-2.5">
+          <a href="#giris" className="group -my-2 flex items-center gap-2.5 py-2">
             <Star className="h-3.5 w-3.5 fill-gold-300 transition-transform duration-500 group-hover:rotate-[72deg]" />
             <span className="display text-[0.95rem] tracking-[0.2em] text-cream md:text-base">
               MİNİK YILDIZLAR

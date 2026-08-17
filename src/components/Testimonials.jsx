@@ -39,7 +39,8 @@ export default function Testimonials() {
           </h2>
         </div>
 
-        <div className="mt-16 grid gap-5 md:grid-cols-3">
+        {/* 3-up only from lg — at 768 it squeezed each quote into a 214px column */}
+        <div className="mt-16 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {QUOTES.map((q, i) => (
             <figure
               key={q.name}
