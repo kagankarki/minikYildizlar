@@ -114,10 +114,10 @@ export default function Nav() {
         </nav>
 
         <div className="shell mt-10 flex flex-col gap-3">
-          <a href={SITE.whatsappHref} target="_blank" rel="noreferrer" className="btn-gold !bg-[#25D366] !border-[#25D366] hover:!bg-[#20bd5a] !text-white">
+          <a href={SITE.whatsappHref} target="_blank" rel="noreferrer" className="btn-whatsapp">
             WhatsApp'tan Ulaşın
           </a>
-          <a href={SITE.instagram} target="_blank" rel="noreferrer" className="btn-gold">
+          <a href={SITE.instagram} target="_blank" rel="noreferrer" className="btn-instagram">
             Instagram'dan Ulaşın
           </a>
           <a href={SITE.phoneHref} className="btn-ghost">

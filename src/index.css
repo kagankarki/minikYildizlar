@@ -97,6 +97,14 @@
     @apply btn border border-white/20 text-cream/90 backdrop-blur-sm
            hover:border-gold-300/70 hover:bg-white/[0.04] hover:text-gold-100;
   }
+  .btn-whatsapp {
+    @apply btn bg-[#25D366] text-white shadow-[0_10px_40px_-12px_rgba(37,211,102,0.75)]
+           hover:-translate-y-0.5 hover:shadow-[0_18px_50px_-12px_rgba(37,211,102,0.9)] hover:bg-[#20bd5a];
+  }
+  .btn-instagram {
+    @apply btn bg-gradient-to-tr from-[#f09433] via-[#dc2743] to-[#bc1888] text-white shadow-[0_10px_40px_-12px_rgba(220,39,67,0.75)]
+           hover:-translate-y-0.5 hover:shadow-[0_18px_50px_-12px_rgba(220,39,67,0.9)];
+  }
 
   .field {
     @apply w-full rounded-xl border border-white/10 bg-white/[0.03] px-4 py-3.5 text-sm text-cream

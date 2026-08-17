@@ -30,7 +30,7 @@ export default function FloatingCta() {
         target="_blank"
         rel="noreferrer"
         aria-label="Instagram'dan yazın"
-        className="flex h-14 w-14 items-center justify-center rounded-full bg-gradient-to-br from-gold-300 to-gold-500 text-ink shadow-[0_14px_40px_-10px_rgba(207,161,77,0.8)] transition-transform duration-500 hover:scale-105"
+        className="flex h-14 w-14 items-center justify-center rounded-full bg-gradient-to-tr from-[#f09433] via-[#dc2743] to-[#bc1888] text-white shadow-[0_14px_40px_-10px_rgba(220,39,67,0.8)] transition-transform duration-500 hover:scale-105"
       >
         <svg viewBox="0 0 24 24" className="h-6 w-6 fill-none stroke-current stroke-[1.5]" aria-hidden="true">
           <path d="M7.5 3.5h9a4 4 0 014 4v9a4 4 0 01-4 4h-9a4 4 0 01-4-4v-9a4 4 0 014-4zM12 8.4a3.6 3.6 0 100 7.2 3.6 3.6 0 000-7.2zM17.2 6.9v.01" />

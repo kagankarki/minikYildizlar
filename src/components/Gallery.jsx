@@ -11,19 +11,19 @@ import { frameSrc } from "../lib/frames";
  * Karışık kullanabilirsin — bazı kutular fotoğraf, bazıları filmden kare kalabilir.
  */
 const SHOTS = [
-  { src: "/gallery/WhatsApp Image 2026-08-17 at 17.31.37.jpeg", title: "Gala Gecesi", meta: "Sahne kurulumu · Ankara", span: "lg:col-span-7 lg:row-span-2" },
-  { src: "/gallery/WhatsApp Image 2026-08-17 at 17.31.38 (1).jpeg", title: "Doğum Günü Konsepti", meta: "Balon kemeri & neon", span: "lg:col-span-5" },
-  { src: "/gallery/WhatsApp Image 2026-08-17 at 17.31.38 (2).jpeg", title: "Balo Salonu", meta: "Nişan · 180 kişi", span: "lg:col-span-5" },
-  { src: "/gallery/WhatsApp Image 2026-08-17 at 17.31.38.jpeg", title: "Işık Tasarımı", meta: "Gobo & spot kurulumu", span: "lg:col-span-4" },
-  { src: "/gallery/WhatsApp Image 2026-08-17 at 17.31.39 (1).jpeg", title: "Sahne Provası", meta: "Teknik hazırlık", span: "lg:col-span-4" },
-  { src: "/gallery/WhatsApp Image 2026-08-17 at 17.31.39 (2).jpeg", title: "Bahçe Düğünü", meta: "Açık hava · yaz sezonu", span: "lg:col-span-4" },
-  { src: "/gallery/WhatsApp Image 2026-08-17 at 17.31.39.jpeg", title: "Etkinlik Anı", meta: "Özel anlar", span: "lg:col-span-5 lg:row-span-2" },
-  { src: "/gallery/WhatsApp Image 2026-08-17 at 17.31.40 (1).jpeg", title: "Harika Gösteri", meta: "Unutulmaz sahne", span: "lg:col-span-7" },
-  { src: "/gallery/WhatsApp Image 2026-08-17 at 17.31.40 (2).jpeg", title: "Muhteşem Gün", meta: "Büyük kutlama", span: "lg:col-span-7" },
-  { src: "/gallery/WhatsApp Image 2026-08-17 at 17.31.40 (3).jpeg", title: "Çocukların Neşesi", meta: "Eğlenceli oyunlar", span: "lg:col-span-6" },
-  { src: "/gallery/WhatsApp Image 2026-08-17 at 17.31.40 (4).jpeg", title: "Mutluluk", meta: "Gülümseyen yüzler", span: "lg:col-span-6" },
-  { src: "/gallery/WhatsApp Image 2026-08-17 at 17.31.40 (5).jpeg", title: "Sahne Işıkları", meta: "Görsel şölen", span: "lg:col-span-8" },
-  { src: "/gallery/WhatsApp Image 2026-08-17 at 17.31.40.jpeg", title: "Büyük Kapanış", meta: "Gecenin sonu", span: "lg:col-span-4" },
+  { src: "/gallery/WhatsApp Image 2026-08-17 at 17.31.37.jpeg", title: "Ecem & Pars Doğum Günü", meta: "Manifest ve Safari Konsepti", span: "lg:col-span-7 lg:row-span-2" },
+  { src: "/gallery/WhatsApp Image 2026-08-17 at 17.31.38.jpeg", title: "Konsept Detayları", meta: "Özel Tasarım Pasta Alanı", span: "lg:col-span-5" },
+  { src: "/gallery/WhatsApp Image 2026-08-17 at 17.31.38 (1).jpeg", title: "Murat Ayaz 2 Yaş", meta: "Maşa ve Koca Ayı Doğum Günü", span: "lg:col-span-5" },
+  { src: "/gallery/WhatsApp Image 2026-08-17 at 17.31.38 (2).jpeg", title: "Maşa ve Koca Ayı", meta: "Balon Kemeri Süslemesi", span: "lg:col-span-4" },
+  { src: "/gallery/WhatsApp Image 2026-08-17 at 17.31.39 (1).jpeg", title: "Ömer Yiğit", meta: "Futbol Temalı Doğum Günü", span: "lg:col-span-4" },
+  { src: "/gallery/WhatsApp Image 2026-08-17 at 17.31.39.jpeg", title: "Happy Birthday", meta: "Cry Babies Konsepti", span: "lg:col-span-4" },
+  { src: "/gallery/WhatsApp Image 2026-08-17 at 17.31.39 (2).jpeg", title: "Alya Duru Manifest", meta: "Havuz Başı Doğum Günü", span: "lg:col-span-5 lg:row-span-2" },
+  { src: "/gallery/WhatsApp Image 2026-08-17 at 17.31.40.jpeg", title: "Açık Hava Kutlaması", meta: "Manifest Temalı Detaylar", span: "lg:col-span-7" },
+  { src: "/gallery/WhatsApp Image 2026-08-17 at 17.31.40 (2).jpeg", title: "Kreş Etkinliği", meta: "Güneş Kreşi Seramik ve Resim Sergisi", span: "lg:col-span-7" },
+  { src: "/gallery/WhatsApp Image 2026-08-17 at 17.31.40 (3).jpeg", title: "Mezuniyet Kahvaltısı", meta: "Güneş Kreşi Veda Etkinliği", span: "lg:col-span-6" },
+  { src: "/gallery/WhatsApp Image 2026-08-17 at 17.31.40 (4).jpeg", title: "Çocuklara Özel", meta: "Mezuniyet Masası Düzeni", span: "lg:col-span-6" },
+  { src: "/gallery/WhatsApp Image 2026-08-17 at 17.31.40 (1).jpeg", title: "Ice Cream Time", meta: "Dondurma Temalı Giriş Takı", span: "lg:col-span-8" },
+  { src: "/gallery/WhatsApp Image 2026-08-17 at 17.31.40 (5).jpeg", title: "Safari Konsepti", meta: "Varlığın kutlamaya değer en güzel şey", span: "lg:col-span-4" },
 ];
 
 /** A tile is either a real photo (`src`) or a still from the film (`frame`). */
